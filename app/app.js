@@ -1,8 +1,6 @@
 const Server = require('./server.js')
-const port = (process.env.PORT || 3000)
+const port = (process.env.PORT || 4000)
 const app = Server.app()
-
-console.log(app); 
 
 const webpack = require('webpack')
 const webpackDevMiddleware = require('webpack-dev-middleware')

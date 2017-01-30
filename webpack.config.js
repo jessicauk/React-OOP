@@ -1,8 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
 
-//console.log(path.join(__dirname, 'dist/'));
-
 module.exports = {
 	resolve: {
     	extensions: ['', '.js', '.jsx']
@@ -25,5 +23,10 @@ module.exports = {
 				}
 			}
 		]
-	}
+	},
+	plugins: [
+	        new webpack.ProvidePlugin({
+	            "React": "react",
+	    }),
+	],
 };

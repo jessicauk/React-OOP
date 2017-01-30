@@ -21490,7 +21490,7 @@
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function(React) {'use strict';
 
 	var react = __webpack_require__(1);
 
@@ -21507,6 +21507,7 @@
 	};
 
 	module.exports = ComponentBlock;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }
 /******/ ]);
