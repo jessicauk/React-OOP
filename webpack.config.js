@@ -1,13 +1,15 @@
 var path = require('path');
 var webpack = require('webpack');
 
+//console.log(path.join(__dirname, 'dist/'));
+
 module.exports = {
 	resolve: {
     	extensions: ['', '.js', '.jsx']
   	},
 	entry: './app/index.js',
 	output: {
-		path:__dirname,
+		path:path.join(__dirname, 'dist'),
 		filename:'bundle.js',
 		publicPath:'/app/assets/'
 	},
