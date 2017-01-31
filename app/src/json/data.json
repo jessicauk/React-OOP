@@ -61,26 +61,6 @@
          "updated_time": "2017-01-02T21:27:44+0000"
       },
       {
-         "id": "X1000_Y1000",
-         "from": {
-            "name": "Jessica Apolinar", "id": "X100"
-         },
-         "message": "I am using a fake data json",
-         "actions": [
-            {
-               "name": "Comment",
-               "link": "http://www.facebook.com/X1000/posts/Y1000"
-            },
-            {
-               "name": "Like",
-               "link": "http://www.facebook.com/X1000/posts/Y1000"
-            }
-         ],
-         "type": "status",
-         "created_time": "2017-01-30T19:27:46+0000",
-         "updated_time": "2017-01-30T19:27:46+0000"
-      },
-      {
          "id": "X1001_Y1001",
          "from": {
             "name": "Mauricio Romero", "id": "X101"
