@@ -9,11 +9,6 @@ Run the following instruccion on CLI in order to install dependencies:
 npm install
 ```
 
-And it's just as easy with [npm](http://npmjs.com):
-
-```sh
-npm i --save react
-```
 #### Prerequisites
 
 * You have `node` installed at v6.0.0+ and `npm` at v3.0.0+.
