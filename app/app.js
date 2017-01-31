@@ -1,13 +1,16 @@
 const Server = require('./server.js');
 const port = (process.env.PORT || 4000);
 const app = Server.app();
-let bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 
 const webpack = require('webpack')
 const webpackDevMiddleware = require('webpack-dev-middleware')
 const webpackHotMiddleware = require('webpack-hot-middleware')
 const config = require('../webpack.config.js')
 const compiler = webpack(config)
+const Data = require('./server/Data');
+
+new Data(app);
 
 app.use(webpackHotMiddleware(compiler))
 app.use(webpackDevMiddleware(compiler, {
